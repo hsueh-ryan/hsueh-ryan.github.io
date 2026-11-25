@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deskmate 隱私權政策</title>
+<style>
+  body { font: 16px/1.7 -apple-system, "PingFang TC", "Noto Sans TC", sans-serif; max-width: 640px; margin: 48px auto; padding: 0 16px; color: #222; background: #fff; }
+  h1 { font-size: 26px; } h2 { font-size: 19px; margin-top: 28px; }
+  .en { color: #555; font-size: 14px; border-top: 1px solid #ddd; margin-top: 40px; padding-top: 16px; }
+  a { color: #0b62c4; }
+</style>
+</head>
+<body>
+<h1>Deskmate 隱私權政策</h1>
+<p>最後更新：2026-11-25</p>
+
+<h2>存取哪些資料</h2>
+<p>Deskmate 只申請 Gmail 的唯讀權限（<code>https://www.googleapis.com/auth/gmail.readonly</code>），用來讀取使用者自己信箱中的刷卡、消費通知信。它不會寄信、刪信或修改任何郵件。</p>
+
+<h2>如何使用資料</h2>
+<p>讀到的通知信只用來解析消費日期、金額與商家，整理成使用者自己的記帳紀錄。資料不會用於廣告、不會用來訓練 AI 模型，也不會出售。</p>
+
+<h2>資料存放在哪裡</h2>
+<p>Deskmate 只在使用者自己的電腦上執行。Google 授權取得的 refresh token 存在本機的 macOS 鑰匙圈，解析出的記帳資料存在本機。沒有任何伺服器會收到這些資料，也不會分享給任何第三方。</p>
+
+<h2>如何撤銷授權</h2>
+<p>使用者可以隨時到 <a href="https://myaccount.google.com/permissions">Google 帳戶的第三方存取權頁面</a>移除 Deskmate 的存取權，並刪除本機的資料。</p>
+
+<h2>Google API 服務使用者資料政策</h2>
+<p>Deskmate 使用從 Google API 取得的資訊時，遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>，包括 Limited Use 規定。</p>
+
+<h2>聯絡方式</h2>
+<p>有任何問題，請透過 <a href="https://github.com/hsueh-ryan">GitHub</a> 聯絡開發者。</p>
+
+<div class="en">
+<p><strong>English summary.</strong> Deskmate requests only the read-only Gmail scope (<code>gmail.readonly</code>) to read card-transaction notification emails in the user's own inbox and turn them into personal expense records. It never sends, deletes or modifies email. Data is processed and stored only on the user's own computer (tokens in the macOS Keychain); it is not sent to any server, shared with third parties, sold, used for advertising, or used to train AI models. Users can revoke access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Deskmate's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+</div>
+</body>
+</html>
